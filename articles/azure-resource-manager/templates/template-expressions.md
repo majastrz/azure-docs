@@ -148,7 +148,7 @@ In resource definition, double-escape values within an expression. The `scriptOu
   "variables": {
     "deploymentScriptSharedProperties": {
       "forceUpdateTag": "[parameters('forceUpdateTag')]",
-      "azPowerShellVersion": "10.1",
+      "azPowerShellVersion": "16.2.0",
       "retentionInterval": "P1D"
     }
   },
@@ -187,7 +187,7 @@ With [languageVersion 2.0](./syntax.md#languageversion-20), double-escape is on 
   "variables": {
     "deploymentScriptSharedProperties": {
       "forceUpdateTag": "[parameters('forceUpdateTag')]",
-      "azPowerShellVersion": "10.1",
+      "azPowerShellVersion": "16.2.0",
       "retentionInterval": "P1D"
     }
   },
@@ -308,4 +308,3 @@ To totally remove an element, you can use the [filter() function](./template-fun
 
 * For the full list of template functions, see [ARM template functions](template-functions.md).
 * For more information about template files, see [Understand the structure and syntax of ARM templates](./syntax.md).
-
